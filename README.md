@@ -11,7 +11,7 @@ Students can:
 - See the department routed for the complaint
 - Get a duplicate/similar-complaint warning
 
-Complaints are stored in SQLite for later review.
+Complaints are stored in SQLite for local development and PostgreSQL when deployed with the included Render blueprint.
 
 ## How It Works
 
@@ -93,6 +93,12 @@ python manage.py runserver
 ```
 
 Open `http://127.0.0.1:8000/`.
+
+## Deploy on Render
+
+The repository includes `build.sh` and `render.yaml` for a Render deployment. The blueprint provisions a PostgreSQL database, installs production dependencies, collects static files, runs migrations, and starts Django with Gunicorn.
+
+In Render, create a new Blueprint Instance from this repository and apply the included `render.yaml`. Render's documentation describes this Blueprint workflow for Django deployments. The deployed service will receive a generated `DJANGO_SECRET_KEY` and `DJANGO_DEBUG=false`.
 
 ## Competition Task
 
