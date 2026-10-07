@@ -2,6 +2,10 @@
 
 CAMPUSCARE is a Django-based smart campus complaint portal that uses machine learning and text similarity to analyze student complaints.
 
+## Live Demo
+
+🌐 **[Open CAMPUSCARE](https://campuscare-025j.onrender.com)**
+
 ## Current Prototype
 
 Students can:
