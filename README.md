@@ -108,9 +108,14 @@ In Render, create a new Blueprint Instance from this repository and apply the in
 
 This repository intentionally provides a working prototype rather than a finished product.
 
-Participants can extend CAMPUSCARE by improving the areas described in the repository Issues.
+### Open Challenges
 
-Examples include an admin dashboard, stronger complaint intelligence, and multilingual complaint handling.
+- **Easy:** [Add complaint evaluation tests](https://github.com/radhikadhingra820-hue/CAMPUSCARE/issues/4)
+- **Medium:** [Build a staff complaint dashboard](https://github.com/radhikadhingra820-hue/CAMPUSCARE/issues/1)
+- **Medium:** [Improve complaint classification and triage](https://github.com/radhikadhingra820-hue/CAMPUSCARE/issues/2)
+- **Hard:** [Add multilingual complaint support](https://github.com/radhikadhingra820-hue/CAMPUSCARE/issues/3)
+
+Participants should choose an issue, keep changes focused, run the tests, and link their Pull Request to the issue. Difficulty labels describe expected scope rather than a guaranteed completion time.
 
 ## Testing
 
